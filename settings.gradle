@@ -1,0 +1,10 @@
+pluginManagement {
+	repositories {
+		maven { url = 'https://repo.spring.io/snapshot' }
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'JobAnalyzer'
+include('job-board-registry-service')
+include('job-board-connector-service')
+include('job-normalization-service')
